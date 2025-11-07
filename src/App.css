@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100; 
+  background-color: black; 
+  color: white;        
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*Navbar*/
+
 
 .navbar {
+
   padding: 1rem;
-  margin-top: -350px; 
+  margin-top: -230px; 
   margin-left: -10px; 
+  font-size: ;
 }
 
 
@@ -14,7 +31,85 @@
 
 
 .navbar a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
+/*Home pagina*/
+.HomeL{
+  margin-left: 900px;
+  margin-top: -40px;
+  color: white;
+  font-size: 60px;
+
+}
+
+.HomeS{
+  color: white;
+  margin-left: 900px;
+  margin-top: -30px;
+}
+
+
+.HomeW{
+  color: white;
+  margin-left: 60px;
+  margin-top: 200px;
+  font-size: 20px;
+}
+body{
+  background-color: black;
+}
+
+/*contact pagina*/
+.ContactC{
+  margin-top: -160px;
+  margin-left: 635px;
+}
+
+.contact-form {
+  padding: 1.5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #111;            
+  background-color: white; 
+  border-radius: 8px;      
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  width: 100%;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
+
+.contactPage{ 
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*about me pagina*/
+
+.AboutA{
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.AboutH{
+  font-size: 22px;
+}
