@@ -1,7 +1,9 @@
+import ContactInfo from "../components/ContactInfo";
+
 const Contact = () => {
   return (
 
-   
+   <>
     
    <section className="contactPage">
     <h2 className="Contactt">Contact</h2>
@@ -25,9 +27,18 @@ const Contact = () => {
   </form>
 
 
-<p className="ContactL">lukaszvandenblink</p>
-
 </section>
+
+<ContactInfo />
+
+
+
+</>
+
+
+
+
+
 
 
 

@@ -15,11 +15,11 @@ body {
 
 
 .navbar {
-
+position: fixed;
   padding: 1rem;
-  margin-top: -230px; 
-  margin-left: -10px; 
-  font-size: ;
+  top: 0;
+ 
+
 }
 
 
@@ -101,15 +101,30 @@ body{
   flex-direction: column;
 }
 
+.ContactL{
+ height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+ width: 80vw;
+ margin: 5rem auto 0;
+
+
+}
+
+.ContactL div {
+  display: flex;
+  gap: 1rem;
+}
+
+.imgC{
+  width: 50px;
+  height: auto;
+}
+
+
+
+
+
 /*about me pagina*/
 
-.AboutA{
-  width: 100vw;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-}
-
-.AboutH{
-  font-size: 22px;
-}
