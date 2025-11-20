@@ -14,7 +14,7 @@ const ContactInfo = () => {
 
             <div>
             <p>@lukaszvandenblink</p> 
-            <img className="imgC" src="/images/twitter.png" alt="" />
+            <img className="imgC" src="/images/xlogo.png" alt="" />
             </div>
 
         </section>
